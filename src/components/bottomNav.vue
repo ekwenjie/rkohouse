@@ -2,28 +2,34 @@
   <v-bottom-navigation
     v-model="bottomNav"
   >
-    <v-btn value="gov" style="font-size: 25px">
-        <i class="fas fa-building"></i>
-    </v-btn>
 
-    <v-btn value="community" style="font-size: 25px">
-        <i class="fas fa-users"></i>
-        
-    </v-btn>
+    <router-link to="/gov">
+      <v-btn value="gov" style="font-size: 25px; width: 80px; height: 56px">
+          <i class="fas fa-building"></i>
+      </v-btn>
+    </router-link>
 
-    <v-btn value="chat" style="font-size: 25px">
+
+    <v-btn value="chat" style="font-size: 25px; width: 80px; height: 56px">
         <i class="fas fa-comment-alt"></i>
-       
+    </v-btn>
+
+    <v-btn value="community" style="font-size: 25px; width: 80px; height: 56px">
+        <i class="fas fa-users"></i>
     </v-btn>
 
     
-    <v-btn value="flat" style="font-size: 25px">
+    <v-btn value="flat" style="font-size: 25px; width: 80px; height: 56px">
          <i class="fas fa-home"></i>
     </v-btn>
 
-    <v-btn value="call" style="font-size: 25px">
+
+    <router-link to="/emergency">
+      <v-btn value="call" style="font-size: 25px; width: 80px; height: 56px">
         <i class="fas fa-phone-alt"></i>
-    </v-btn>
+      </v-btn>
+    </router-link>
+
   </v-bottom-navigation>
 </template>
 

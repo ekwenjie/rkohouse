@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <v-app id="app">
 
       <div id="header">
         <Header />
@@ -12,7 +12,7 @@
         <BottomNav />
       </div>
 
-  </div>
+  </v-app>
 
 </template>
 

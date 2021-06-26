@@ -7,7 +7,7 @@ Vue.use(VueRouter);
 
 export const router = new VueRouter({
     routes: [
-        { path: '/', component: homepage },
+        { path: '/gov', component: homepage },
         { path: '/emergency', component: emergencyContact }
     ]
 })

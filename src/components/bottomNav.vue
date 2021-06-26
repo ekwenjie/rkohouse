@@ -9,19 +9,24 @@
       </v-btn>
     </router-link>
 
+    <router-link to="/chat">
+      <v-btn value="chat" style="font-size: 25px; width: 80px; height: 56px">
+          <i class="fas fa-comment-alt"></i>
+      </v-btn>
+    </router-link>
 
-    <v-btn value="chat" style="font-size: 25px; width: 80px; height: 56px">
-        <i class="fas fa-comment-alt"></i>
-    </v-btn>
 
-    <v-btn value="community" style="font-size: 25px; width: 80px; height: 56px">
-        <i class="fas fa-users"></i>
-    </v-btn>
+    <router-link to="/">
+      <v-btn value="community" style="font-size: 25px; width: 80px; height: 56px">
+          <i class="fas fa-users"></i>
+      </v-btn>
+    </router-link>
 
-    
-    <v-btn value="flat" style="font-size: 25px; width: 80px; height: 56px">
-         <i class="fas fa-home"></i>
-    </v-btn>
+    <router-link to="/flatshare">
+      <v-btn value="flat" style="font-size: 25px; width: 80px; height: 56px">
+          <i class="fas fa-home"></i>
+      </v-btn>
+    </router-link>
 
 
     <router-link to="/emergency">

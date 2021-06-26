@@ -1,17 +1,20 @@
 <template>
+
     <div>
-        <h1>CODE FOR FLATSHARE GOES HERE</h1>
+        <h1>CODE FOR CHAT GOES HERE</h1>
     </div>
+
 </template>
 
 <script>
 export default {
-    name: 'FlatShare',
+    name: 'Chat',
     data() {
         return {
             //
         }
     }
+
 }
 </script>
 

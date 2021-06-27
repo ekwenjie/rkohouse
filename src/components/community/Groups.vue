@@ -8,8 +8,6 @@
             background-color="primary"
             grow
             >
-
-
                 <v-tab>
                     Community
                 </v-tab>

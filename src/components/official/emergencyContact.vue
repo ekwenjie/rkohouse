@@ -79,8 +79,4 @@ ul {
     float: right;
 }
 
-.v-card__title {
-    dispay: flex;
-}
-
 </style>

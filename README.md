@@ -10,7 +10,12 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Application Setup
+```
+Application is built for iphone X. Please set the device setting in the developer tools.
+```
+
+<!-- ### Compiles and minifies for production
 ```
 npm run build
 ```
@@ -18,7 +23,5 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
-```
+``` -->
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -63,6 +63,14 @@ export default {
   margin: auto;
 }
 
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
 .left {
     width: 90%;
     text-align: left;

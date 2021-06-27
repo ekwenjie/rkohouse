@@ -1,4 +1,4 @@
-import emergencyContact from './components/official/EmergencyContact.vue';
+import emergencyContact from './components/official/emergencyContact.vue';
 import main from './components/official/Main.vue';
 import homepage from './components/Homepage.vue';
 import groups from './components/community/Groups.vue';

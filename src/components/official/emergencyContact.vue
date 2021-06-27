@@ -6,14 +6,14 @@
 
     <div class="contact-list">
       <ul>
-        <li>
+        <li v-for="(record, item) in contacts" :key="item">
           <container>
             <v-card>
                 <v-card-title>
                     <div class="left">
-                        Singapore Embassy (US)
+                        {{record.contactname}}
                         <br>
-                        +1-202-537-3100
+                        {{record.contactnum}}
                     </div>
 
                     <div class="right" style="font-size:25px">
@@ -24,10 +24,7 @@
                 <v-divider class="mx-4"></v-divider>
 
                 <v-card-text>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Optio esse facilis consequatur cupiditate impedit quam eius,
-                  quia porro fugit fugiat soluta tempora! Corporis nihil,
-                  repudiandae vel sit veritatis quibusdam expedita.
+                  {{record.contactdescription}}
                 </v-card-text>
             </v-card>
             
@@ -43,7 +40,18 @@ export default {
   name: "emergencyContact",
   data() {
     return {
-      //
+      contacts: [
+        {
+          contactname: 'Singapore Embassy (US)',
+          contactnum: '+1-202-537-3100',
+          contactdescription: 'Need help any overseas? Contact Singapore Embassy now!'
+        },
+        {
+          contactname: 'Mayaguhan',
+          contactnum: '+65 6123 5678',
+          contactdescription: 'Call bodoh kambing susu'
+        }
+      ]      
     };
   },
 };

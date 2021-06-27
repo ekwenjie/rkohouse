@@ -29,7 +29,6 @@
                 ></v-text-field>
 
                 <i class="fas fa-search" style="margin-right: 10px"></i>
-                <i class="fas fa-plus-circle"></i>
 
 
             </v-toolbar>

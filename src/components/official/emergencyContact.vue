@@ -4,10 +4,10 @@
       <h1>Emergency Contact</h1>
     </div>
 
-    <div class="contact-list">
+    <div class="contact-list" style="margin-bottom: 56px">
       <ul>
         <li v-for="(record, item) in contacts" :key="item">
-          <container>
+          <div class="container">
             <v-card>
               <v-card-title>
                 <div class="left" style="font-size: 15px">
@@ -28,7 +28,7 @@
                 {{ record.contacthrs }}
               </v-card-text>
             </v-card>
-          </container>
+          </div>
         </li>
       </ul>
     </div>

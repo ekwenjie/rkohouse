@@ -24,7 +24,7 @@
 
     <router-link to="/flatshare">
       <v-btn value="flat" style="font-size: 25px; width: 80px; height: 56px">
-          <i class="fas fa-home"></i>
+          <i class="fas fa-bed"></i>
       </v-btn>
     </router-link>
 

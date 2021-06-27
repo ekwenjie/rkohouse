@@ -23,7 +23,7 @@
 
             <br>
 
-            <h2>$40 per night</h2>
+            <h2>$40 PER NIGHT</h2>
             </v-card-text>
         
 
